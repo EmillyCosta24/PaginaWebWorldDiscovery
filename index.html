@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra Seu Mundo</title>
+    <link rel="icon" href="https://edube.org/uploads/media/default/0001/04/web-favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Descubra Seu Mundo &#x1F30D;</h1> 
+    
+    <p>Clique em um continente para aprender sobre suas características geográficas únicas ou use o botão abaixo para descobrir sua localização atual!</p>
+
+    <button id="getLocation">Descobrir Localização</button>
+    
+    <h2>Mapa Interativo dos Continentes</h2>
+   
+    <img id="worldMap" 
+         src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/World_map_-_low_resolution.svg/900px-World_map_-_low_resolution.svg.png" 
+         alt="Mapa Mundi Interativo" usemap="#continent-map">
+
+    <map name="continent-map">
+        <area shape="rect" coords="100,50,250,200" id="north-america" alt="América do Norte" title="América do Norte">
+        <area shape="rect" coords="120,250,250,400" id="south-america" alt="América do Sul" title="América do Sul">
+        <area shape="rect" coords="380,50,500,150" id="europe" alt="Europa" title="Europa">
+        <area shape="rect" coords="380,150,500,350" id="africa" alt="África" title="África">
+        <area shape="rect" coords="520,50,850,250" id="asia" alt="Ásia" title="Ásia">
+        <area shape="rect" coords="700,300,850,400" id="australia-and-oceania" alt="Austrália e Oceania" title="Austrália e Oceania">
+    </map>
+    
+    <div id="info-display">
+        As informações sobre o continente selecionado ou a sua localização aparecerão aqui.
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
