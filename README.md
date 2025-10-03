@@ -56,5 +56,3 @@ Este projeto é ideal para quem deseja **aprender geografia de forma divertida**
 
 ---
 
-## Estrutura do Projeto
-
